@@ -24,6 +24,7 @@ const Contact = () => {
       <div className="mt-20 flex items-center justify-center gap-8">
         {SOCIAL_LINKS.map((link, index) => (
           <a
+            aria-label={link.label}
             key={index}
             href={link.href}
             target="_blank"

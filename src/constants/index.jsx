@@ -161,25 +161,31 @@ export const SOCIAL_LINKS = [
   {
     href: "https://www.facebook.com/",
     icon: <FaFacebook fontSize={26} className="hover:opacity-80" />,
+    label: "Facebook",
   },
   {
     href: "https://discord.com/invite",
     icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
+    label: "Discord",
   },
   {
     href: "https://www.instagram.com/",
     icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
+    label: "Instagram",
   },
   {
     href: "https://twitter.com/",
     icon: <FaXTwitter fontSize={26} className="hover:opacity-80" />,
+    label: "Twitter",
   },
   {
     href: "https://github.com/",
     icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
+    label: "Github",
   },
   {
     href: "https://www.linkedin.com/",
     icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
+    label: "Linkedin",
   },
 ];

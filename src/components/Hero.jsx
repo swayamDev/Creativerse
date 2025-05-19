@@ -15,7 +15,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full">
-        <img src={hero} alt="" className="mt-8 h-96 w-full object-cover" />
+        <img
+          rel="preload"
+          src={hero}
+          alt="Welcome banner"
+          className="mt-8 h-96 w-full object-cover"
+        />
       </div>
     </section>
   );
